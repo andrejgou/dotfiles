@@ -1,0 +1,13 @@
+packages:
+  darwin:
+    brews:
+      - git
+      - wget
+      - curl
+      - tree
+      - jq
+      - ripgrep
+      - fzf
+      - neovim
+    casks:
+      - iterm2
