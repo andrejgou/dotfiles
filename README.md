@@ -14,13 +14,14 @@ You'll be prompted for:
 - Full name (for Git commits)
 - Email address (for Git commits)
 
-## Optional: Generate SSH Keys
+## Optional: GitHub Authentication
 
-If you need SSH access to GitHub:
+Authenticate via browser:
 ```bash
-ssh-keygen -t ed25519 -C "your-email@example.com"
-cat ~/.ssh/id_ed25519.pub  # Add to GitHub
+gh auth login
 ```
+
+Follow the prompts and choose "Login with browser".
 
 ## What's Included
 
