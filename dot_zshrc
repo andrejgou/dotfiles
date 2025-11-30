@@ -9,3 +9,6 @@ alias ..='cd ..'
 alias ...='cd ../..'
 
 export PATH="$HOME/.local/bin:$PATH"
+
+# Powerlevel10k theme
+source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme

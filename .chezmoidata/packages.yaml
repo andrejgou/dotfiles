@@ -9,5 +9,6 @@ packages:
       - ripgrep
       - fzf
       - neovim
+      - powerlevel10k
     casks:
       - iterm2
