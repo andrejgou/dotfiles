@@ -27,5 +27,5 @@ export PATH="$HOME/.local/bin:$PATH"
 # Powerlevel10k theme
 source $BREW_PREFIX/share/powerlevel10k/powerlevel10k.zsh-theme
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+# p10k config managed by chezmoi (dot_p10k.zsh)
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
