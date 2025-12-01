@@ -46,6 +46,15 @@ require("lazy").setup({
     end,
   },
 
+  -- Markdown preview and rendering
+  {
+    "OXY2DEV/markview.nvim",
+    lazy = false,
+    config = function()
+      require("markview").setup()
+    end,
+  },
+
   -- Fuzzy finder
   {
     "nvim-telescope/telescope.nvim",
@@ -74,7 +83,7 @@ require("lazy").setup({
     build = ":TSUpdate",
     config = function()
       require("nvim-treesitter.configs").setup({
-        ensure_installed = { "lua", "vim", "javascript", "typescript", "python", "rust", "go" },
+        ensure_installed = { "lua", "vim", "javascript", "typescript", "python", "rust", "go", "markdown", "markdown_inline" },
         highlight = { enable = true },
         indent = { enable = true },
       })
