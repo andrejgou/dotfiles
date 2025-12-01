@@ -12,3 +12,4 @@ packages:
       - powerlevel10k
     casks:
       - iterm2
+      - 1password-cli
